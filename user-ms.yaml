@@ -5,6 +5,9 @@ spring:
     url: jdbc:mysql://localhost:3306/home_user_db
     username: root
     password: root
+  cache:
+    redis:
+      time-to-live: 60000
 jpa:
   show-sql: true
   properties:
